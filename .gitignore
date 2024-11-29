@@ -1,0 +1,48 @@
+# 忽略所有文件
+
+
+# 保留源代码文件
+!*.cpp
+!*.h
+
+!*.sln
+!*.vcxproj
+!*.vcxproj.filters
+!*.vcxproj.user
+# 保留文件夹结构
+!*/
+
+# 忽略编译生成的文件和文件夹
+x64/
+Debug/
+Release/
+*.tlog
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.log
+
+# 忽略用户特定文件
+*.user
+*.suo
+*.VC.db
+*.ipch
+
+# 忽略临时文件
+*.tmp
+*.class
+*.~*
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 忽略其他 IDE 特定文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
